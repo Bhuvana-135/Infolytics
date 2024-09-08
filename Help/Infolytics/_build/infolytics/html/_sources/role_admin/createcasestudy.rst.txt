@@ -1,0 +1,72 @@
+.. role_specialist\createcasestudy:
+
+
+Create a Study
+==========================
+
+.. include:: ../../common/stub-overview.txt
+
+.. toctree::
+
+```
+:titlesonly:
+:hidden:
+```
+
+.. |Search Icon| image:: images/searchicon.jpg
+.. |Calendar Icon| image:: images/calendaricon.jpg
+
+Case studies are conducted on individuals visiting a medical camp at locations where surveys are conducted. A case is created in the web Application for every visit a field user creates and uploads it from the app installed on the device. If survey was conducted in offline mode then on synchronization, a case is created. 
+A case study will be created by associating a case to the study template and adding users with set permissions.
+
+To create a study:
+
+- On the Study Template form, Registration Survey tab, scroll-down to Associate Study section. 
+- Select Create Study. A new study form will be open on screen.
+
+..  image:: images/createcasestudy.jpg
+
+The current study template will be associated to the study. 
+
+- Specify the begin, end date of the study in the From Date & To Date using the |Calendar Icon|Icon.
+- Click Save. A study will be created and listed under the list of studies.
+
+Add Location
+--------------------------------
+
+The case study is conducted at a particular location. Administrator has to configure location and user permissions on the screen.
+
+To add a study location:
+
+- On the Study details form, Go to Location section, select Add Location.
+- In the Study form, click |Search Icon|of Location, select a location from the list, and click Add. 
+- By default, the current location will be in the Active state. The **Is Active** checkbox will be checked out by default. 
+- Select Save to store the changes. The study location will be listed in the form. 
+
+Add Users 
+--------------------------------
+
+A case study will require  users to be configured as field users and specialists. Users have to be added to the study and permissions have to be set.
+
+To add users and set permissions:
+
+-  On the Study details form, go to User Permission form, and click Add Users. 
+-  On the User permission form,  click |Search Icon| of Location, choose a study location from the list, and click Add. 
+-  Associate permission for a user as a field user. Click |Search Icon|of User,  choose a user from the list, and click Add. Select the **Is Field User** checkbox. 
+-  Similarly, click |Search Icon|of User, choose a user from the list, and click Add. Select the **Is Specialist** checkbox to associate user as a specialist.
+-  By default, the user permissions are set as Active. The **Is Active** checkbox will be checked out.
+-  Select Save. Responsibilities related to the permission will be listed under the User Permission list. 
+
+.. Note::  Any number of users can be added as Field Users or Specialists. 
+
+Publish the Study
+--------------------------------
+
+After associating the location and the users to the study, the study has to be published to be available to all. 
+
+To publish the study: 
+
+* On the study details form, select Publish and click Save. 
+* An **UnPublish**, **Modify** and **Delete** options are available in the form. 
+
+The study will be listed under the **Planned Studies**, **Listing** menu. 

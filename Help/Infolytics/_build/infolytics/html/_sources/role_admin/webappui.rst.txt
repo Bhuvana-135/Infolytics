@@ -1,0 +1,83 @@
+﻿.. role_admin\\webappui:
+
+Application UI
+==========================
+
+.. include:: ../../common/stub-overview.txt
+
+.. toctree::
+
+```
+:titlesonly:
+:hidden:
+```
+
+Infolytics has interface screens specific for the role. The web app is mostly available to both Admin and Specialist. Field Users can access the application from the App installed on mobile devices.  
+
+Home
+--------------------------------
+View displays all studies that are currently ongoing in the application. 
+
+* Login to the web application using your credentials. 
+* On the application Home page, select a Study and click View Icon. 
+  The Home page of the study is available on screen.  
+
+Home Menu Tables:
+
+===================  ============================================================
+ Menu Options        Description
+===================  ============================================================
+Home  		         View summary report of the current study 
+​     				
+					 * New Visit: View visits, visit data, follow ups and its status on the timeline. 
+					 * Follow Up: View new visits,visit data, follow-up visit and its status on the timeline. 
+					 * Second Opinion: View visits to be reviewed.
+					 * Closed: View visits that are closed.
+					 * Potential Duplicates:View visits sharing similar data, associate to a case or create new case.
+Scheduled Followup   View visits marked for follow-up.           	
+Visit Maps	         View study locations on the Google map.				  
+===================  ============================================================
+
+Planned Studies
+--------------------------------
+
+View displays all planned studies with details. The commencement dates for the study is indicated on the calendar.
+
+Planned Study tables:
+
+================  ============================================================
+ Menu Options     Description
+================  ============================================================
+Listing            View all planned studies. View and modify a case study, add 
+		   users, set permissions and create a new visit.
+Calendar List      View calendar blocking of study dates for the current month.
+================  ============================================================
+
+Manage
+--------------------------------
+Administrator can view and manage study templates, studies, case details, new visits, visits marked for follow-up along with their current status on the timeline. 
+
+Manage tables:
+
+================  ============================================================
+ Menu Options     Description
+================  ============================================================
+Study Templates   View all study templates, view and modify template details.
+Studies           View, modify study schedules, location and user permissions.
+Cases		      Review, send for follow-up, seek opinion or close case.		
+Visits	          View all visits created by all users in the application.  
+			     * New: View all new visits created in the application.
+	             * Possible Duplicates: View duplicates,associate case or create new case. 
+		         * Reviewed Visit: View reviewed, follow up, closed or deleted visits.
+		         * Follow-up: View visits for follow-up under all studies.
+		         * Closed: View visits that are closed under all studies. 
+		         * All: View visits by users for all published studies.  
+Follow-ups	      View visits for follow-up by logged in user.  
+Location          View and modify current location details.
+User Permissions  View and modify user role details.
+================  ============================================================
+
+Analysis
+--------------------------------
+Generate list of all studies for analysis. User can select a study to view the analysis. 
+

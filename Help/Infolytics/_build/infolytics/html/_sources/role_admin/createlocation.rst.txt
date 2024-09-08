@@ -1,0 +1,35 @@
+.. role_admin\\createlocation:
+
+Study Location
+==========================
+
+.. include:: ../../common/stub-overview.txt
+
+.. toctree::
+
+```
+:titlesonly:
+:hidden:
+```
+
+Medical camps are held at locations where the case study has to be conducted. 
+To view study locations of camps:
+
+- Scroll-over to Manage menu on the Home page, click on the drop-down, select Locations.  
+- On the active location list, select and click on a location. The current location details are available in the form. 
+
+View shows the current location details on the Google map along with its latitude and longitude.   
+
+Create a Study Location
+--------------------------------
+
+To create a new location:
+
+- On the list of Locations, click Create Locations. The new location details will be captured and identified on the google map current user location details. 
+
+.. image:: images/createlocation.png
+
+- Enter the name of the location you want to create in the Name text box. 
+- Select the **Is Active** checkbox. The current location will be automatically detected on Google Maps. 
+- The pointer points to the location on the map. The latitude and longitudinal degrees will be automatically updated depending on its location on the map.
+- Click Save. The new location will be listed under the study locations.  

@@ -1,0 +1,35 @@
+.. role_admin/index:
+
+Role - Admin
+==========================
+
+.. include:: ../../common/stub-overview.txt
+
+.. toctree::
+	:titlesonly:
+	:maxdepth: 2
+	
+	Application UI...<webappui>	
+	Create Study Template...<createstudytemplate>
+	Create Location...<createlocation>
+	Create Study...<createcasestudy>
+
+Application UI
+=========================
+
+Getting accustomed to your interface screens.
+
+Create Study Template
+=========================
+
+Create and publish survey templates required for case studies in medical camps.
+
+Create Location
+=========================
+
+Create new study locations for conducting medical camps.
+
+Create a Study
+=========================
+
+Create a study for  visits published in the application.
