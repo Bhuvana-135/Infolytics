@@ -1,0 +1,45 @@
+.. role_fielduser\\mobileappui:
+
+Mobile App UI
+==========================
+
+.. include:: ../../common/stub-overview.txt
+
+.. toctree::
+
+```
+:titlesonly:
+:hidden:
+```
+
+Camps
+--------------------------------
+
+View lists out camps related to the current user. 
+
+Select a camp. All details of the camp are listed on screen. Field User can create a new visit for registration or for follow up either in online or offline mode. 
+
+Summary
+--------------------------------
+
+View displays total number of new visits created by the current user, number of visits recommended by specialist for follow-up and total number of offline visits. You can create new visits and take up survey in  either online or offline mode.  
+
+Follow Ups
+--------------------------------
+
+View lists out cases that require follow ups in the current camp. 
+
+Visits
+--------------------------------
+
+View displays visits created by the current field user.
+
+Up Coming Follow Ups
+--------------------------------
+
+View shows camp listing for follow-up visits that are yet to be conducted by the current field user.
+
+Delayed Follow Ups
+--------------------------------
+
+View shows camp listing for follow-up visits that had to be conducted on a specified date by the current field user.

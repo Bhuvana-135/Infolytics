@@ -1,0 +1,33 @@
+﻿.. role_fielduser\createvisitfollowup:
+
+Creating Visit - Follow-up
+===============================
+
+.. include:: ../../common/stub-overview.txt
+
+.. toctree::
+
+```
+:titlesonly:
+:hidden:
+```
+Certain cases are marked for follow-up by specialists. Field user has to conduct follow-up survey, collect relevant details and documents required for the case. 
+
+.. Note:: You cannot edit basic details of the patient. Follow–up survey questionnaire configured while creating a survey template will be displayed on screen.*
+
+To create a visit for follow-up:
+
+- Go to Follow Up tab, Tap on a Case that requires follow-up. 
+- Tap on Create Visit. In the Create Visit form, scroll-down to Registration section. A survey questionnaire is open on screen. 
+- Collect details and mark appropriate choices to each question listed in the form.
+- Additional details of the patient can be added under the Enter Data section. For each question, type in text using the keypad.    
+- Documents relevant to the case i.e., Medical reports, x-rays report etc., can be uploaded or captured as a photograph. Scroll-down to the Attachment section,  tap on Add Document. 
+- Browse and select a file from the list, and tap on Add Or 
+- Tap on Capture, take a photograph and tap on Add. A photograph will be attached to the form.
+- Tap on Save to store the changes. 
+
+The case will be listed under Follow Ups where follow up’s of all cases are listed on screen.  
+
+.. Note:: If follow up visit is created during offline mode then data has to be synchronized to make it available in the web application. Data will be lost if cache is cleared before sync.**
+
+For more details, refer to [Sync Offline Data]: (syncofflinedata.rst  "Synchronize Offline Data").

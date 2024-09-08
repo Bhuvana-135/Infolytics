@@ -1,0 +1,35 @@
+.. role_fielduser/index:
+
+Role - Field User
+==========================
+
+.. include:: ../../common/stub-overview.txt
+
+.. toctree::
+	:titlesonly:
+	:maxdepth: 2
+	
+	Mobile App UI...<mobileappui>
+	Create a new Visit...<createvisit>
+	Sync Offline Data...<syncofflinedata>
+	Create Visit...<createvisitfollowup>
+
+Mobile App UI
+==========================
+
+Get accustomed to the user interface screens in the mobile App to complete the assigned tasks. 
+
+Create New Visit 
+===========================
+
+Create a new visit, conduct registration and follow-up survey of user in online or offline mode.
+
+Sync Offline Data
+===========================
+
+Data collected in off-line mode has to be synchronized to publish on the web application.
+
+Create Visit - Follow Up
+===========================
+
+Create visits with additional details for cases marked for follow-up by specialists.

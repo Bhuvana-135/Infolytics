@@ -1,0 +1,24 @@
+﻿.. role_fielduser\syncofflinedata:
+
+Synchronize Offline Data
+==========================
+
+.. include:: ../../common/stub-overview.txt
+
+.. toctree::
+
+```
+:titlesonly:
+:hidden:
+```
+Patient data will not be listed in the web application if visit is created in offline data. Data has to be synced  to publish patient’s details on the web application. You have to sync offline data visits to publish it on the website. 
+
+To syncronize offline data:
+
+- On the Survey details form, select Visits tab. All visits created during the offline surveys will be listed on screen.
+
+- Tab on Sync. The application goes in to the processing mode. 
+
+.. image:: images/takeofflinelistvisit.png
+
+.. Note:: If cache is cleared before sync then all data will be lost. The registration and follow- up survey details collected during offline survey will be published in the web application.*  
