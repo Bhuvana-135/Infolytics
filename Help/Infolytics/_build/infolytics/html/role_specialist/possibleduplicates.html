@@ -1,0 +1,307 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>De-Duplication of a Case &mdash; Infolytics  documentation</title>
+  
+
+  
+  
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
+  
+  
+  
+
+  
+
+  
+  
+    
+
+  
+
+  
+  
+    <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  
+
+  
+    <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+
+  
+        <link rel="index" title="Index"
+              href="../genindex.html"/>
+        <link rel="search" title="Search" href="../search.html"/>
+    <link rel="top" title="Infolytics  documentation" href="../index.html"/>
+        <link rel="up" title="Role - Specialist" href="index.html"/>
+        <link rel="next" title="Role - Field User" href="../role_fielduser/index.html"/>
+        <link rel="prev" title="Case Studies" href="casestudies.html"/> 
+
+  
+  <script src="../_static/js/modernizr.min.js"></script>
+
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+   
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search">
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Infolytics
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../signinwebapp.html">Application Sign-up...</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../useraccount.html">Create User Account...</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../mobileappinstall.html">Install App...</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../role_admin/index.html">Role - Admin</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../role_admin/index.html#application-ui">Application UI</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../role_admin/index.html#create-study-template">Create Study Template</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../role_admin/index.html#create-location">Create Location</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../role_admin/index.html#create-a-study">Create a Study</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Role - Specialist</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="uispecialist.html">User Interface...</a></li>
+<li class="toctree-l2"><a class="reference internal" href="casestudies.html">Case Studies...</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Case De-duplication...</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="index.html#user-interface">User Interface</a></li>
+<li class="toctree-l1"><a class="reference internal" href="index.html#case-studies">Case Studies</a></li>
+<li class="toctree-l1"><a class="reference internal" href="index.html#case-de-duplication">Case De-Duplication</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../role_fielduser/index.html">Role - Field User</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../role_fielduser/index.html#mobile-app-ui">Mobile App UI</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../role_fielduser/index.html#create-new-visit">Create New Visit</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../role_fielduser/index.html#sync-offline-data">Sync Offline Data</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../role_fielduser/index.html#create-visit-follow-up">Create Visit - Follow Up</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Infolytics</a>
+        
+      </nav>
+
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html">Docs</a> &raquo;</li>
+        
+          <li><a href="index.html">Role - Specialist</a> &raquo;</li>
+        
+      <li>De-Duplication of a Case</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <!--<noscript><img alt="" width="1" height="1" src="https://c.microsoft.com/trans_pixel.aspx"/></noscript>--><div class="section" id="de-duplication-of-a-case">
+<h1>De-Duplication of a Case<a class="headerlink" href="#de-duplication-of-a-case" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="possible-duplicates">
+<h2>Possible Duplicates<a class="headerlink" href="#possible-duplicates" title="Permalink to this headline">¶</a></h2>
+<div class="toctree-wrapper compound">
+</div>
+<p><code class="docutils literal"><span class="pre">`</span>
+<span class="pre">:titlesonly:</span>
+<span class="pre">:hidden:</span>
+<span class="pre">`</span></code></p>
+<p>During the medical camp, a field user creates a new visit and conduct survey’s for every individual visiting the camp.</p>
+<p>A duplicate case is created under the following instances:</p>
+<ol class="arabic simple">
+<li>Individuals may re-visit camps in different locations</li>
+<li>Common data sharing between individuals. For instance, the phone number shared among members of a family.</li>
+</ol>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p>Application can recognize duplicate data if de-duplication happens in fields - Mobile number, Aadhaar no and date of birth of individuals.*</p>
+<p class="last">To view possible duplicates:</p>
+</div>
+<ul class="simple">
+<li>Login as Specialist in the Web Application.</li>
+<li>On the Home page, click on a case and select New Visit menu from the left panel.</li>
+<li>Click Possible Duplicates menu.</li>
+</ul>
+<p>View shows visits that are duplicate (if any) and the possible duplicates already existing in the application.</p>
+</div>
+<div class="section" id="associate-case">
+<h2>Associate Case<a class="headerlink" href="#associate-case" title="Permalink to this headline">¶</a></h2>
+<p>Duplicate visits can be associated to a case from the possible duplicates in the list sharing the same data.</p>
+<p>You can associate the case to its duplicate:</p>
+<ul class="simple">
+<li>Select a visit from the  possible duplicate listing of data.</li>
+<li>Scroll-down to select Possible Duplicate case from the list on the right panel.</li>
+<li>Click Associate Case.</li>
+</ul>
+<img alt="../_images/possibleduplicates.jpg" src="../_images/possibleduplicates.jpg" />
+<p>The duplicate visit  will be associated to the case. It will be removed from the current list  of duplicate visits.</p>
+</div>
+<div class="section" id="create-new-case">
+<h2>Create New Case<a class="headerlink" href="#create-new-case" title="Permalink to this headline">¶</a></h2>
+<p>If you do not want to associate the visit to an existing case, then a new case can be created.</p>
+<p>To create a new case:</p>
+<ul class="simple">
+<li>Select a visit from the  possible duplicate listing of data.</li>
+<li>Scroll-over to Possible Duplicate list on the right, and click Create New Case.</li>
+</ul>
+<p>A message pop-up appears on screen to confirm that a new case has been created.</p>
+</div>
+</div>
+
+
+           </div>
+           <div class="articleComments">
+            
+           </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../role_fielduser/index.html" class="btn btn-neutral float-right" title="Role - Field User" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="casestudies.html" class="btn btn-neutral" title="Case Studies" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2017, AppPoint.
+      Last updated on Feb 16, 2018.
+
+    </p>
+  </div> 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  
+
+    <script type="text/javascript">
+        var DOCUMENTATION_OPTIONS = {
+            URL_ROOT:'../',
+            VERSION:'',
+            COLLAPSE_INDEX:false,
+            FILE_SUFFIX:'.html',
+            HAS_SOURCE:  true,
+            SOURCELINK_SUFFIX: '.txt'
+        };
+    </script>
+      <script type="text/javascript" src="../_static/jquery.js"></script>
+      <script type="text/javascript" src="../_static/underscore.js"></script>
+      <script type="text/javascript" src="../_static/doctools.js"></script>
+      <script type="text/javascript" src="../_static/wedc.js"></script>
+
+  
+
+  
+  
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+  
+
+  
+  
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.StickyNav.enable();
+      });
+  </script>
+   
+
+</body>
+</html>
