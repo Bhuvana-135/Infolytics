@@ -1,0 +1,46 @@
+.. index:
+
+Infolytics - Help Document
+===============================================
+.. include:: ../common/stub-overview.txt
+
+.. toctree::
+	:titlesonly:
+	:maxdepth: 2
+	
+	Application Sign-up...<signinwebapp>
+	Create User Account...<useraccount>
+	Install App...<mobileappinstall>
+	Role - Admin...<role_admin/index>
+	Role - Specialist...<role_specialist/index>
+	Role - Field User...<role_fielduser/index>
+
+**Application Sign-Up**
+===========================
+
+Sign up and login to the web application. 
+
+**Create User Account**
+===========================
+
+Create a new user and configure the account for the application.  
+
+**Install App**
+===========================
+
+Download from App store or Play store and install the app on your device.
+
+**Role - Admin**
+===========================
+
+Design survey templates, create and publish case studies for users. 
+
+**Role - Specialist**
+===========================
+
+Create and publish case for visits that require follow up. 
+
+**Role - Field User**
+===========================
+
+Create visits, conduct surveys for registration and follow-ups for cases referred by specialists.

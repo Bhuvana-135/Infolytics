@@ -1,0 +1,70 @@
+﻿.. mobileappinstall:
+
+Installing the App
+============================================================
+
+.. include:: ../common/stub-overview.txt
+
+.. toctree::
+
+```
+:titlesonly:
+:hidden:
+```
+
+You can access the application either through the website or the mobile app (if installed on your device). The App can be downloaded and installed from **Play Store** for Android devices or **App Store** for IOS devices. Your mobile device can be configured either manually or by scanning the QR code.
+
+.. Note:: The App can be used on mobile devices with Android version 4.4.5 and above, if installed from **Play Store**.
+
+To download and install the App on your mobile:
+
+* On your Android/Smart phone, open **Play Store** or **App Store**.
+* Search and select the App from the list, Tap on Download. The mobile app will be downloaded on to your device. 
+* Tap on Install. A pop-up window to confirm if the App can access your identity and contacts is displayed on screen.
+* Tap on Accept. The device goes in to the processing mode and all the application resources will get loaded on the screen.
+
+Logging In 
+--------------------------
+
+For your account in the web application, you can configure the mobile App account either by:
+
+1. Scanning the QR Code or 
+2. Manual Configuring your credentials
+
+Scanning QR Code 
+--------------------------
+
+To scan the QR Code:
+
+* Open the web application, select the Mobile icon from the menu bar of the Home page. 
+* A Mobile Apps Store details form with QR Scan code will be open on screen.
+* From your device, tap on QR Code. Capture the scan code from the screen to authenticate your device.
+
+The App goes in to the processing mode on your device.
+
+Manual Configuration 
+--------------------------
+
+You can manually configure the app on your device.
+
+* On the App, tap on Manual Configuration. 
+* Using the keypad, enter the application link, [Infolytics] (https://ily.apppoint.com)
+* Click Next, choose Bizapp as the platform from the drop-down, and click Next. 
+* Advanced settings are done to set up the mobile app environment.Tap on Advanced settings icon. 
+* On the advanced settings form, configure Theme and Font parameter for type and size from the drop-down to set up the mobile app environment.
+
+.. image:: common/images/advancedsettings.png
+
+* Configure the mode of adding data, choose either  of the option from the drop-down. 
+* Online with cache: Data can be captured and saved only in the  online mode. 
+  * Online only: App will be available in the online mode for data capture..
+  * Offline only: App will be available in the offline mode for capturing data.  
+* Set Bootstrap enabled as **Yes** from the drop-down to allow users to view data on screen.
+
+.. Note:: If bootstrap enabled is not configured then data will be not be available.A blank page will be visible on screen.
+
+* Tap on Close to save the settings. 
+* To configure user details,type in your login Id, password, enterprise Id that is already created in the application. 
+* Tap on Save.The App goes in to processing mode and loads in all the resources from the application which might take a few minutes.
+* Tap on Login to open the application.
+

@@ -1,0 +1,32 @@
+.. signinwebapp:
+
+Application Sign-up
+==========================
+
+.. include:: ../common/stub-overview.txt
+
+.. toctree::
+
+```
+:titlesonly:
+:hidden:
+```
+
+Introduction
+--------------------------
+
+Infolytics is designed and developed to automate the surveys conducted for case studies in medical camps.It enables user to capture vital information of the 
+patient and streamline the registration process for follow-up by concerned specialists. 
+
+Roles and Responsibilities
+----------------------------
+
+The application has the following roles and responsibilities.
+
+===================  ============================================================
+ Menu Options        Description
+===================  ============================================================
+Admin                Create & publish survey templates for new visits.
+Specialists          Create case for visits that require follow-up.
+Field User           Create new visits,conduct registration and follow-up 
+===================  ============================================================

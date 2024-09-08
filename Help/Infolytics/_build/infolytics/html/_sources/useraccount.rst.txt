@@ -1,0 +1,59 @@
+.. useraccount:
+
+Creation of a User Account 
+==========================
+
+.. include:: ../common/stub-overview.txt
+
+.. toctree::
+
+```
+:titlesonly:
+:hidden:
+```
+
+User can login and use the application if an account is created in the application. An Administrator can create and configure a new user account in to the application. 
+To create a new user account:
+
+* On the application Home page, click on the System tray, System Administration icon  to view the System Administration menu. 
+* Select Users and click New Users. Add user details i.e., name (include first, middle and last name) and date of birth in respective text boxes. 
+
+.. image:: common/images/newuserdetails.png
+
+* Specify the email id of the use which would be the users login Id, and click Submit. 
+
+A new user account will be created and listed under the list of existing users in the application. 
+
+Setup a Password
+--------------------------------
+The new user can login to the application only after providing a password.
+To add a password for the user account:
+
+* Open the list of Users from the System Administration menu. 
+* Select the user record from the list. In the Account Settings form, click Account Details.
+* Enter Password and Re-type the same password in respective text boxes.
+
+Now, a password is set-up for the new user account. 
+
+Set Default Application
+------------------------------------------
+The home page of the application will be available on start-up, if it is set as default. 
+To set default application for the account:
+
+* On the User Account details form, click View Details and select Modify, The user details form will be available for changes. 
+* Click Default Application, choose an application from the list and click Add. 
+* Select Save to store the changes.
+
+Now, the application Home page will be available on screen when user logs into the account. 
+
+Change Password
+--------------------------------------
+New user can login to the account and change the current password. 
+To change the current password:
+
+* Login to the application as a new user with the given credentials. 
+* For a first- time user, a pop-up window appears on screen to prompt user to change the password. 
+* Type in a password and re-type the same password in respective text boxes.
+* Click Save to store the changes. 
+
+A new password will be setup for your account. You can login to the account using the current login credentials. 
