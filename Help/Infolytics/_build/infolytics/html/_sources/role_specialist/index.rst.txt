@@ -1,0 +1,30 @@
+.. role_specialist/index:
+
+Role - Specialist
+==========================
+
+.. include:: ../../common/stub-overview.txt
+
+.. toctree::
+	:titlesonly:
+	:maxdepth: 2
+	
+	User Interface...<uispecialist>
+	Case Studies...<casestudies>
+	Case De-duplication...<possibleduplicates>
+
+
+User Interface 
+===========================
+
+Explore the UI to view and manage visits that require review.  
+
+Case Studies
+===========================
+
+Provide notes or forward the case to other specialists for second opinion. 
+
+Case De-Duplication
+===========================
+
+View duplicate cases, associate possible duplicates or create a new case. 

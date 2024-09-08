@@ -1,0 +1,80 @@
+.. role_specialist\casestudies:
+
+Case Studies
+==========================
+.. include:: ../../common/stub-overview.txt
+
+.. toctree::
+
+```
+:titlesonly:
+:hidden:
+```
+
+Specialist will view the case details and the documents attached to the case for visits created by the field user. Specialist can either mark it for follow-up by the field user or refer it to another specialist for opinion. 
+
+Provide Feedback 
+--------------------------
+
+Specialist can view the case and add comments about the case. 
+
+To provide feedback:
+
+* Login the web Application as a Specialist.
+* On the Home page, select a Case. View shows Summary of the visit along with the list of new visits.
+* Select a visit from the list. The case details for the visit will be listed on screen. 
+
+.. image:: images/viewvisitdetails.jpg
+
+* Select a visit from the list. The case details for the visit will be listed on screen. 
+* Under the Feedback section, enter text in the "**Add your comments**" text box.  
+
+Create Follow-up
+-------------------------- 
+
+If  the survey is incomplete or the specialist requires more details then the case can be sent back to the field user to collect additional details.
+
+To create a follow-up:
+
+* Open the survey details form of a case visit on screen.  
+* Click Follow up menu. A create follow-up form is open on screen. 
+
+.. image::  images/createfollowup.jpg
+
+* Specify the follow-up date, click on the Calendar icon and select a date. 
+* Enter information that has to be conveyed to the field user for follow-up in the Observation text box. 
+* Click Save to store the details. The text added in the observation text box will be listed in the Feedback section as a comment. 
+
+The case will be listed under the Follow ups menu for the current logged in user. The follow up count will be incremented by 1 and listed for follow-up under the field user login.  
+
+..Note:: If case has gone past the current follow-up date then it will be listed under the delayed follow-up tab. 
+
+Second Opinion
+--------------------------
+
+If the specialist gets a clue of certain implications of a disease then the case can be referred to another specialist for a second opinion. 
+
+..Note::  The specialist has to provide his feedback before seeking second opinion from other specialists.  Refer:  Provide Feedback for more details. 
+
+To seek second opinion for a case:
+
+* Open the survey details form of a case visit on screen.  
+* Click Second Opinion. A Send for Review form appears on screen. 
+
+.. image::  images/sendforreview.jpg
+
+* Specify the user to whom you want to refer the case. Click Search of Choose a Reviewer to  assign, select and add a user from the list. 
+* Add your opinion about the case in the Comments text box and click Save to store the changes. 
+
+The case will be listed for the selected specialist login. The number of counts for second opinion will be incremented by 1 and listed for the current user login summary tab. 
+
+Close Case 
+--------------------------
+If follow-up for the case is completed, then it can be closed. 
+
+To close the case:
+
+* Open the survey details form of a case visit on screen.  
+* Click Close. A message text box to confirm closure appears on screen.  
+
+The case will appear in the closed case tab. It will no longer appear in the list of current cases. 

@@ -1,0 +1,60 @@
+.. role_specialist\possibleduplicates:
+
+De-Duplication of a Case 
+==========================
+
+.. include:: ../../common/stub-overview.txt
+
+Possible Duplicates
+--------------------------
+
+.. toctree::
+
+```
+:titlesonly:
+:hidden:
+```
+
+During the medical camp, a field user creates a new visit and conduct survey's for every individual visiting the camp.  
+
+A duplicate case is created under the following instances:
+
+1. Individuals may re-visit camps in different locations
+2. Common data sharing between individuals. For instance, the phone number shared among members of a family.
+
+.. Note:: Application can recognize duplicate data if de-duplication happens in fields - Mobile number, Aadhaar no and date of birth of individuals.*
+
+ To view possible duplicates:
+
+* Login as Specialist in the Web Application.
+* On the Home page, click on a case and select New Visit menu from the left panel.
+* Click Possible Duplicates menu. 
+
+View shows visits that are duplicate (if any) and the possible duplicates already existing in the application.
+
+Associate Case
+-------------------------- 
+
+Duplicate visits can be associated to a case from the possible duplicates in the list sharing the same data. 
+
+You can associate the case to its duplicate:
+
+* Select a visit from the  possible duplicate listing of data.
+* Scroll-down to select Possible Duplicate case from the list on the right panel.
+* Click Associate Case.  
+
+.. image:: images/possibleduplicates.jpg
+
+The duplicate visit  will be associated to the case. It will be removed from the current list  of duplicate visits.
+
+Create New Case
+--------------------------
+
+If you do not want to associate the visit to an existing case, then a new case can be created.  
+
+To create a new case: 
+
+* Select a visit from the  possible duplicate listing of data.
+* Scroll-over to Possible Duplicate list on the right, and click Create New Case. 
+
+A message pop-up appears on screen to confirm that a new case has been created. 

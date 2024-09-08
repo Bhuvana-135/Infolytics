@@ -1,0 +1,67 @@
+﻿.. role_admin\\webappui:
+
+**User Interface Screen**
+==========================
+
+.. include:: ../../common/stub-overview.txt
+
+.. toctree::
+
+```
+:titlesonly:
+:hidden:
+```
+Infolytics has interface screens specific for the role. The web app is mostly available to both Admin and Specialist. Field Users can access the application from the App installed on mobile devices.  
+
+## **Home** 
+
+ View displays all studies that are currently ongoing in the application. 
+
+* Login to the web application using your credentials. 
+* On the application Home page, select a Study and click on  the ![view](images/viewicon) View icon. 
+
+The Home page of the study is available on screen.  
+
+| Menu                 | Options              | Description                              |
+| -------------------- | :------------------- | ---------------------------------------- |
+| Home                 | Home                 | View  shows a consolidated  report of  the study i.e,. total number of case visits, cases marked for follow-up and number of closed visits. |
+|                      | New Visit            | Displays all new visits uploaded by the field users. Select a visit to view visit data  (last/previous), follow ups and current status of the case on the timeline. |
+|                      | Follow Up            | Displays all new visits uploaded by the field users. Select a visit to view visit data  (last/previous), follow ups and current status of the case on the timeline. |
+|                      | Second Opinion       | Shows list of visits to be reviewed by other specialists. |
+|                      | Closed               | Show visits that are currently closed.   |
+|                      | Potential Duplicates | View visits that share the same data i.e.,  Mobile number, Aadhaar card number and date of birth fields that are marked for de-duplication. Admin can either associate it to the current case or create a new case . |
+| Scheduled Follow-ups |                      | Displays visits that are marked by specialists for follow-up. |
+| Visit Maps           |                      | Study locations are indicated on Google Maps for easy identification. |
+
+## **Planned Studies**
+
+View  displays all planned studies with details. The commencement of the study is indicated on respective days of the month.
+
+| Menu Options | Description                              |
+| ------------ | ---------------------------------------- |
+| Listing      | Displays all active studies planned for the study. Select a study to view and modify a case study. Admins can add new users, set permissions and create a new visit. |
+| Calendar     | View blocking of dates for the study on the calendar for the current month or week . |
+
+## **Manage** 
+
+Administrator can view and manage study templates, studies, case details, new visits, visits marked for follow-up along with their current status on the timeline. 
+
+| Menu Options     |                     | Description                              |
+| ---------------- | ------------------- | ---------------------------------------- |
+| Study Templates  |                     | Shows list of all study templates created in the application.  Select a study to view and modify the template details, registration and follow-up survey questionnaires. Administrator can create a new survey template for an existing study or a new study in the application. |
+| Studies          |                     | View list of all studies created in the application. Select a study to view and modify schedule dates, location, users with permissions. |
+| Cases            |                     | List out cases with details on screen. Select a case to view data  collected by field user . Specialist can either mark the visit for follow-up, sent for review to seek second opinion or close the case. |
+| Visits           | New                 | List all new visits created under all studies by all field users. Logged in user can either select a visit and create a case or convert all visits to cases. |
+|                  | Possible Duplicates | View duplicate cases for every visit. Specialist can either associate case for the visit or create a new case. |
+|                  | Reviewed Visits     | View visits reviewed by specialist. Reviewed visits can be sent for follow-up , closed or deleted. |
+|                  | Follow-up           | View visits marked for follow-up for all studies by all specialist for current logged in user. |
+|                  | Closed              | View visits of all studies in the application that are closed by Admin or Specialists. |
+|                  | All                 | View visits created by all users for all studies in the current application |
+| Follow-ups       |                     | View visits of all studies marked for follow-up for the current logged in user. Select a record to create a follow-up visit. |
+| Location         |                     | View all locations configured in the application. Select a location to view or modify the current details. |
+| User Permissions |                     | View user roles for all studies. Select a user role  to view and modify the details. |
+
+## **Analysis**
+
+Generate list of all studies for analysis. User can select a study to view its analysis. 
+

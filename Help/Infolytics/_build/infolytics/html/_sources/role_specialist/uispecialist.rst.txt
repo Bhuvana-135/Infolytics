@@ -1,0 +1,56 @@
+.. role_specialist\\uispecialist:
+
+Application UI
+==========================
+
+.. include:: ../../common/stub-overview.txt
+
+.. toctree::
+
+```
+:titlesonly:
+:hidden:
+```
+
+Infolytics has interface screens specific for the role. The user interface screen for specialist is as listed below. 
+
+Home
+--------------------------
+
+View displays all studies that are currently ongoing in the application. 
+
+* Login to the web application using your credentials (as Specialist). 
+* On the application Home page, select a Study and click on  the ![view](images/viewicon) View icon. 
+
+The Home page of the study will be available on screen.  
+
+**Home Tables**:
+
+===================  ============================================================
+ Menu Options        Description
+===================  ============================================================
+Home                 View summary of the study, number of visits, follow-up and closed visits.
+New Visit            View visits and visit details for reviewing the case.
+Scheduled Follow-up  View visits for which follow-up is completed.  
+Visit Maps           View study locations on the Google map.
+===================  ============================================================
+
+New Visits
+--------------------------
+
+View displays all visits created by field users assigned for the current study. Specialist can either review the visit, forward it to other specialists for opinion or send it back to the field user for follow up. 
+To view visit data:
+
+* On the Home page of a Study, select a visit. By default, the last visit data is displayed on screen. 
+
+**New Visit Tables**:
+
+====================  ============================================================
+ Menu Options         Description
+====================  ============================================================
+Last Visit            View the last created visit and the survey details for review.
+Previous Visit        View previous visits and the visit data for review. 
+Visit-Calendar        Displays schedule dates of visits blocked on the calendar. 
+Follow-Up Calendar    Show schedule dates of follow-up visits blocked on the calendar.  
+Timeline              View current status of a visit in the application. 
+====================  ============================================================
